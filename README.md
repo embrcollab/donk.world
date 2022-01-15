@@ -5,7 +5,7 @@
 
 ## Description
 
-Flashback Rave Committees website, sharing donk since 2018
+Flashback Rave Committee's website, sharing donk since 2018, 
 
 ## Requirements for running locally
 
