@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "FLASHBACK RAVE COMMITTEE"
+baseURL = "https://dev.donk.world/"
+title = "DONK.WORLD | FLASHBACK RAVE COMMITTEE"
 languageCode = "en"
 DefaultContentLanguage = "en" 
 theme = "hugo.386"
