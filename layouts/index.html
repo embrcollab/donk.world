@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+<div class="row-fluid navmargin">
+  <div class="page-header">
+    <img src="images/DONKWORLDLOGO.gif" style="width: 100%" />
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span3 bs-docs-sidebar">
+    <ul class="nav nav-list bs-docs-sidenav">
+      <a href="/"
+        ><img
+          alt="EMAIL"
+          src="images/websitelogo.png"
+          width="100%"
+          height="auto"
+      /></a>
+    </ul>
+    <p></p>
+    <ul class="nav nav-list bs-docs-sidenav">
+      <h2>
+        <a
+          href="https://www.youtube.com/channel/UCyI4fQ7kwBUUTmAapqA_8Pg/videos"
+          target="_blank"
+          >ARCHIVES</a
+        >
+      </h2>
+    </ul>
+    <p></p>
+    <ul class="nav nav-list bs-docs-sidenav">
+      <a href="mailto:flashbackravecommittee@gmail.com"
+        ><img alt="EMAIL" src="images/email.gif" width="100%" height="40px"
+      /></a>
+    </ul>
+    <p></p>
+    <ul class="nav nav-list bs-docs-sidenav">
+      <h2>
+        <a
+          href="https://www.facebook.com/flashbackravecommittee"
+          target="_blank"
+          >FB</a
+        >
+      </h2>
+    </ul>
+    <p></p>
+    <ul class="nav nav-list bs-docs-sidenav">
+      <h2>
+        <a href="https://www.instagram.com/donk.world" target="_blank">INSTA</a>
+      </h2>
+    </ul>
+    <p></p>
+    <ul class="nav nav-list bs-docs-sidenav">
+      <h2>
+        <a
+          href="https://flashbackravecommittee-donkworld.bandcamp.com/releases"
+          target="_blank"
+          >BANDCAMP</a
+        >
+      </h2>
+    </ul>
+    <p></p>
+  </div>
+
+  <div class="span9 bs-docs-sidebar">
+    <p></p>
+    <p></p>
+    <hr class="soften" />
+    <p></p>
+    <h2>
+      <a href="https://www.twitch.tv/flashbackravecommittee" target="_blank"
+        >CATCH US WHEN WE ARE LIVE HERE OR ON TWITCH</a
+      >
+    </h2>
+    <p></p>
+    <div id="twitch-embed"></div>
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        top: "15%",
+        width: "100%",
+        height: 480,
+        channel: "flashbackravecommittee",
+      });
+    </script>
+  </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,80 @@
+baseURL = "https://example.com"
+title = "FLASHBACK RAVE COMMITTEE"
+languageCode = "en"
+DefaultContentLanguage = "en" 
+theme = "hugo.386"
+preserveTaxonomyNames = true
+
+[params]
+    #mainpagetitle = ""
+    #mainpagesubtitle = "" 
+    #mainpagedesc = ""
+    #copyrightname = ""
+    #copyrighturl = ""
+    showhugo = false
+    loadfastload = false
+    loadspeedfactor = 1.0
+    loadonepass = false
+
+[params.copyright]
+    name = " FBRC DONK.WORLD"
+    url = "https://www.donk.world"
+    prefix = "Flashback Rave Committee"
+    suffix = "All rights reserved. [> site source](https://github.com/embrcollab/donk.world)"
+
+[menu]
+  [[menu.main]]
+    identifier = "ARCHIVES" 
+    name = "ARCHIVES"
+    url = "https://www.youtube.com/channel/UCyI4fQ7kwBUUTmAapqA_8Pg/videos"      
+    weight = 10
+  [[menu.main]]
+    identifier = "EMAIL" 
+    name = "EMAIL"
+    url = "mailto:flashbackravecommittee@gmail.com"      
+    weight = 20          
+  [[menu.main]]
+    identifier = "FB" 
+    name = "FB"
+    url = "https://www.facebook.com/flashbackravecommittee"      
+    weight = 30 
+  [[menu.main]]
+    identifier = "INSTA" 
+    name = "INSTA"
+    url = "https://www.instagram.com/donk.world"      
+    weight = 40 
+  [[menu.main]]
+    identifier = "BANDCAMP" 
+    name = "BANDCAMP"
+    url = "https://flashbackravecommittee-donkworld.bandcamp.com/releases"      
+    weight = 50 
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
