@@ -9,6 +9,10 @@ h2 {
   white-space: normal;
   font-size: 28px;
 }
+.page-header {
+  padding: 0px 20px;
+  margin: 0px 0px 0px;
+}
 .page-header img {
   max-height: 170px;
 }
