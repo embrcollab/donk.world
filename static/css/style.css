@@ -80,6 +80,7 @@ img:hover {
 .navbar-fixed-top {
   margin-bottom: 0px;
 }
+
 @media (min-width: 1200px) {
   .container,
   .navbar-static-top .container,
