@@ -1,0 +1,14 @@
+<script src="{{ "/js/jquery.js" | relURL }}"></script>
+<script src="{{ "/js/bootstrap-386.js" | relURL }}"></script>
+<script>
+    _386 = { 
+        fastLoad:{{ .Site.Params.loadfastload }},
+        onePass:{{ .Site.Params.loadonepass }}, 
+        speedFactor:{{ .Site.Params.loadspeedfactor }}
+    };
+
+    // Free updated script to get the actual year !! no more document.write or stuff!!
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
