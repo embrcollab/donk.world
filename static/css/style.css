@@ -18,7 +18,8 @@ a:focus {
 }
 h2 {
   white-space: normal;
-  font-size: 28px;
+  font-size: 26px;
+  line-height: 25px;
 }
 .nav {
   padding-top: 2px;
@@ -27,6 +28,12 @@ h2 {
   color: rgb(234, 60, 247);
 }
 .m-link h2 a:hover {
+  color: #e9e511;
+}
+.footer-container a {
+  color: rgb(234, 60, 247);
+}
+.footer-container a:hover {
   color: #e9e511;
 }
 .navmargin {
@@ -164,7 +171,7 @@ img:hover {
     width: auto;
   }
   h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {

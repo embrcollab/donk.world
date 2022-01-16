@@ -17,10 +17,10 @@ preserveTaxonomyNames = true
     loadonepass = true
 
 [params.copyright]
-    name = " FBRC DONK.WORLD"
+    name = "DONK.WORLD"
     url = "https://www.donk.world"
     prefix = "Flashback Rave Committee | PEACE, LOVE, UNITY, RESPECT"
-    suffix = "All rights reserved. [> site source](https://github.com/embrcollab/donk.world)"
+    suffix = "All rights reserved. [> SITE SOURCE](https://github.com/embrcollab/donk.world)"
 
 [menu]
   [[menu.main]]
