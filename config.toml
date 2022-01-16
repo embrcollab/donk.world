@@ -13,8 +13,8 @@ preserveTaxonomyNames = true
     #copyrighturl = ""
     showhugo = false
     loadfastload = false
-    loadspeedfactor = 1.0
-    loadonepass = false
+    loadspeedfactor = 0.4
+    loadonepass = true
 
 [params.copyright]
     name = " FBRC DONK.WORLD"

@@ -2,8 +2,8 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
   <body>
+    <div class="se-pre-con"></div>
     {{- partial "header.html" . -}}
-
     <div id="content" class="container">{{- block "main" . }}{{- end }}</div>
     {{- partial "footer.html" . -}}
   </body>
