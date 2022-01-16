@@ -1,13 +1,36 @@
-.navmargin {
-  margin-top: 2em;
+@font-face {
+  font-family: "GOTH";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/gothic-webfont.ttf");
+  src: url("fonts/gothic-webfont.woff") format("woff"),
+    url("fonts/gothic-webfont.woff2") format("woff2");
 }
-
+body {
+  font-family: GOTH, Monaco, Menlo, Consolas, "Courier New", monospace;
+}
 a {
-  color: rgb(234, 60, 247);
+  color: #e9e511;
+}
+a:hover,
+a:focus {
+  color: #39ff35;
 }
 h2 {
   white-space: normal;
   font-size: 28px;
+}
+.nav {
+  padding-top: 2px;
+}
+.m-link h2 a {
+  color: rgb(234, 60, 247);
+}
+.m-link h2 a:hover {
+  color: #e9e511;
+}
+.navmargin {
+  margin-top: 2em;
 }
 .page-header {
   padding: 0px 20px;
@@ -20,6 +43,7 @@ h2 {
   animation: move 2s linear 1s infinite;
 }
 .navbar-inverse .brand {
+  padding-top: 2px;
   font-weight: 1000;
   color: #39ff35;
 }
