@@ -1,10 +1,10 @@
 @font-face {
   font-family: "GOTH";
-  font-style: normal;
+  src: url("/css/fonts/gothic-webfont.woff2") format("woff2"),
+    url("/css/fonts/gothic-webfont.woff") format("woff"),
+    url("/css/fonts/gothic-webfont.tff") format("truetype");
   font-weight: normal;
-  src: url("fonts/gothic-webfont.ttf");
-  src: url("fonts/gothic-webfont.woff") format("woff"),
-    url("fonts/gothic-webfont.woff2") format("woff2");
+  font-style: normal;
 }
 body {
   font-family: GOTH, Monaco, Menlo, Consolas, "Courier New", monospace;
