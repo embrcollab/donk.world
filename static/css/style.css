@@ -114,6 +114,29 @@ h2 {
   font-weight: bold;
   color: #e9e511;
 }
+.twitch-content {
+  z-index: 2;
+  position: relative;
+}
+.marquee {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+svg {
+  display: block;
+}
+.logo {
+  fill: #fff;
+}
+path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+}
 
 img:hover {
   animation: shake 0.5s;
