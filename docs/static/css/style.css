@@ -6,7 +6,7 @@
 
 
 html, body {
-  background-color: white;
+  background-color: #03ff00;
   font-family: Verdana;
   width:  100%;
   height: 100%;
@@ -59,29 +59,21 @@ img:hover {
 /* Change webfont */
 @font-face {
     font-family: 'deutsch_gothicnormal';
-    src: url('gothic-webfont.woff2') format('woff2'),
-         url('gothic-webfont.woff') format('woff');
+    src: url('static/fonts/gothic-webfont.woff2') format('woff2'),
+         url('static/fonts/gothic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 /* Change mouse cursor */
  a{
-        cursor: url("mitzicur"), default;
+        cursor: url("static/mitzicur"), default;
     }
 /* Scrolling text marquee */
 marquee {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-/* Floating images */
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.marquee {
   width: 60%; 
   height: 20px; 
   color: #c34d9c; 
@@ -92,6 +84,13 @@ img {
   border-width: 2px; 
   border-style: groove;
 }
+/* Floating images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* The sidebar menu */
 .sidenav {
   text-align: center;
