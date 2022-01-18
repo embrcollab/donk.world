@@ -1,11 +1,13 @@
-# donk.world - website
+# dev.donk.world - website
 
 [![license](https://img.shields.io/badge/LICENSE-Apache%202.0-green)](https://github.com/embrcollab/donk.world/blob/main/LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/22ef0765-b9cc-4fb6-a48c-909c46b1ddc8/deploy-status)](https://app.netlify.com/sites/zen-goldberg-afa2ba/deploys)
 
 ## Description
 
-Flashback Rave Committee's website, sharing donk since 2018, 
+Flashback Rave Committee's website, sharing donk since 2018,
+
+Current live site can be found under /docs in this repository, viewed at https://donk.world
 
 ## Requirements for running locally
 
