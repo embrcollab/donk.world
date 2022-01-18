@@ -11,7 +11,9 @@ body {
 }
 a {
   color: #e9e511;
+  cursor: url("mitzicur.ico"), default;
 }
+
 a:hover,
 a:focus {
   color: #39ff35;
