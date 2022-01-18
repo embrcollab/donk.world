@@ -59,8 +59,8 @@ img:hover {
 /* Change webfont */
 @font-face {
     font-family: 'deutsch_gothicnormal';
-    src: url('static/fonts/gothic-webfont.woff2') format('woff2'),
-         url('static/fonts/gothic-webfont.woff') format('woff');
+    src: url('/static/fonts/gothic-webfont.woff2') format('woff2'),
+         url('/static/fonts/gothic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
