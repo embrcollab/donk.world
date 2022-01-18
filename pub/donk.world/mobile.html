@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DONK.WORLD | FLASHBACK RAVE COMMITTEE</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
+  <link rel="stylesheet" href="static/css/style.css"/>
+  <script src="static/js/app.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="#03ff00">
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+<!-- Top Navigation Menu -->
+<div class="topnav" href="#"> <img alt="DONK.WORLD LOGO" src="static/img/DONKWORLDLOGO.gif" style="width:80%"; onmousedown="bleep.play()">
+  <a class="active"></a>
+  <div id="myLinks" style="text-align: center">
+    <a href="https://www.youtube.com/channel/UCyI4fQ7kwBUUTmAapqA_8Pg/videos" style="font-family:deutsch_gothicnormal">ARCHIVE</a>
+    <a href="https://www.facebook.com/flashbackravecommittee" style="font-family:deutsch_gothicnormal">FB</a>
+    <a href="https://www.instagram.com/donk.world/" style="font-family:deutsch_gothicnormal">INSTA</a>
+    <br />
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        top: "15%",
+        width: "100%",
+        height: 480,
+        channel: "flashbackravecommittee"
+      });
+    </script>
+    <div>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+   <footer id="footer"><p style="text-align:center; font-size: 10px; color:#c34d9c; font-family:deutsch_gothicnormal"><strong>&copy; FLASHBACK RAVE COMMITTEE 2020</strong></p>
+<p style="text-align:center; font-size: 10px; color:#c34d9c; font-family:deutsch_gothicnormal"><strong>- PEACE, LOVE, UNITY, RESPECT -</strong></p></footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</div>
+</body>
+</html>

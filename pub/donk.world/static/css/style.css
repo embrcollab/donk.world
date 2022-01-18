@@ -1,0 +1,227 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+* {margin:0; padding: 0;}
+
+
+html, body {
+  background-color: white;
+  font-family: Verdana;
+  width:  100%;
+  height: 100%;
+  margin: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* Keep Supra bottom left */
+.supra {
+  max-width: 10% 
+  z-index: -100;
+  position: fixed;
+  bottom: 10px;
+  left: 210px;
+}
+/* Keep footer at bottom */
+.footer {
+  position: fixed;
+  left: 48%;
+  bottom: 0;
+  width: 50%;
+  background-color: ;
+  color: #c34d9c;
+  text-align: right;
+}
+/* Make images shake on mouseover */
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* Change webfont */
+@font-face {
+    font-family: 'deutsch_gothicnormal';
+    src: url('gothic-webfont.woff2') format('woff2'),
+         url('gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Change mouse cursor */
+ a{
+        cursor: url("mitzicur"), default;
+    }
+/* Scrolling text marquee */
+marquee {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Floating images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.marquee {
+  width: 60%; 
+  height: 20px; 
+  color: #c34d9c; 
+  font-size: 15px; 
+  font-family: Impact; 
+  text-decoration: underline; 
+  background-color: #e9e511; 
+  border-width: 2px; 
+  border-style: groove;
+}
+/* The sidebar menu */
+.sidenav {
+  text-align: center;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar (default 200px) */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #000000; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 4px 8px 1px 8px; /* Default (6px 8px 6px 8px) */
+  text-decoration: none;
+  font-size: 25px;
+  color: #e9e511;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #03ff00;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar (default 200px) */
+  padding: 0px 10px;
+}
+#flashMe {
+  height:70%;
+  width:100%;
+  background:black;
+
+  animation: flash 1s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes flash {
+  0% {
+    background:black;
+  }
+  20% {
+    background:#e9e511;
+  }
+  100% {
+    background:#03ff00;
+  }
+}
+#audioContainer {
+    position: fixed;
+    bottom: 7%;
+    left: 40%;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #03ff00;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #03ff00;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #c34d9c;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #c34d9c;
+}
+
+.active {
+  background-color: none;
+  color: white;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	width: 60%;
+	height: 60%;
+}
+
