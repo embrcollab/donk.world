@@ -90,7 +90,7 @@ img:hover {
 }
 /* Change mouse cursor */
 a {
-  cursor: url("static/mitzicur"), default;
+  cursor: url("mitzicur.ico"), default;
 }
 /* Scrolling text marquee */
 marquee {
